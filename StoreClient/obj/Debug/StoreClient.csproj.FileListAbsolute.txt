@@ -1,0 +1,8 @@
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\bin\Debug\StoreClient.exe.config
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\bin\Debug\StoreClient.exe
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\bin\Debug\StoreClient.pdb
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.Form1.resources
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.Properties.Resources.resources
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.csproj.GenerateResource.Cache
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.exe
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.pdb
