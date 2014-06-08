@@ -1,9 +1,0 @@
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\bin\Debug\ShopClient.exe.config
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\bin\Debug\ShopClient.exe
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\bin\Debug\ShopClient.pdb
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.csprojResolveAssemblyReference.cache
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.Form1.resources
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.Properties.Resources.resources
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.csproj.GenerateResource.Cache
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.exe
-c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.pdb
