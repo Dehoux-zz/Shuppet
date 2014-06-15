@@ -1,0 +1,26 @@
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\bin\Debug\StoreClient.exe.config
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\bin\Debug\StoreClient.exe
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\bin\Debug\StoreClient.pdb
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.Form1.resources
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.Properties.Resources.resources
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.csproj.GenerateResource.Cache
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.exe
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\StoreClient\obj\Debug\StoreClient.pdb
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\bin\Debug\StoreClient.exe.config
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\bin\Debug\StoreClient.exe
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\bin\Debug\StoreClient.pdb
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\obj\Debug\StoreClient.Form1.resources
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\obj\Debug\StoreClient.Properties.Resources.resources
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\obj\Debug\StoreClient.csproj.GenerateResource.Cache
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\obj\Debug\StoreClient.exe
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\obj\Debug\StoreClient.pdb
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\StoreClient\obj\Debug\StoreClient.csprojResolveAssemblyReference.cache
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\bin\Debug\StoreClient.exe.config
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\bin\Debug\StoreClient.exe
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\bin\Debug\StoreClient.pdb
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\obj\Debug\StoreClient.csprojResolveAssemblyReference.cache
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\obj\Debug\StoreClient.Form1.resources
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\obj\Debug\StoreClient.Properties.Resources.resources
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\obj\Debug\StoreClient.csproj.GenerateResource.Cache
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\obj\Debug\StoreClient.exe
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\StoreClient\obj\Debug\StoreClient.pdb

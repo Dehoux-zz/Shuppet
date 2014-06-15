@@ -1,0 +1,8 @@
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShuppetDB\bin\Debug\ShuppetDB.exe.config
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShuppetDB\bin\Debug\ShuppetDB.exe
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShuppetDB\bin\Debug\ShuppetDB.pdb
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShuppetDB\bin\Debug\EntityFramework.dll
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShuppetDB\bin\Debug\EntityFramework.xml
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShuppetDB\obj\Debug\ShuppetDB.csprojResolveAssemblyReference.cache
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShuppetDB\obj\Debug\ShuppetDB.exe
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShuppetDB\obj\Debug\ShuppetDB.pdb

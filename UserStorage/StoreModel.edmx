@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="StoreModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="StoreModelStoreContainer">
+    <EntitySet Name="UserSet" EntityType="StoreModel.Store.UserSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OrderEntrySet" EntityType="StoreModel.Store.OrderEntrySet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="OrderSet" EntityType="StoreModel.Store.OrderSet" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ProductSet" EntityType="StoreModel.Store.ProductSet" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="UserOrder" Association="StoreModel.Store.UserOrder">
+      <End Role="User" EntitySet="UserSet" />
+      <End Role="Order" EntitySet="OrderSet" />
+    </AssociationSet>
+    <AssociationSet Name="OrderOrderEntry" Association="StoreModel.Store.OrderOrderEntry">
+      <End Role="Order" EntitySet="OrderSet" />
+      <End Role="OrderEntry" EntitySet="OrderEntrySet" />
+    </AssociationSet>
+    <AssociationSet Name="ProductOrderEntry" Association="StoreModel.Store.ProductOrderEntry">
+      <End Role="Product" EntitySet="ProductSet" />
+      <End Role="OrderEntry" EntitySet="OrderEntrySet" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="UserSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="CashAmount" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderEntrySet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Amount" Type="int" Nullable="false" />
+    <Property Name="Order_Id" Type="int" Nullable="false" />
+    <Property Name="Product_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="OrderSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OrderDate" Type="datetime" Nullable="false" />
+    <Property Name="User_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ProductSet">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Price" Type="float" Nullable="false" />
+  </EntityType>
+  <Association Name="UserOrder">
+    <End Role="User" Type="StoreModel.Store.UserSet" Multiplicity="1" />
+    <End Role="Order" Type="StoreModel.Store.OrderSet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="User">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="User_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="OrderOrderEntry">
+    <End Role="Order" Type="StoreModel.Store.OrderSet" Multiplicity="1" />
+    <End Role="OrderEntry" Type="StoreModel.Store.OrderEntrySet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Order">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OrderEntry">
+        <PropertyRef Name="Order_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="ProductOrderEntry">
+    <End Role="Product" Type="StoreModel.Store.ProductSet" Multiplicity="1" />
+    <End Role="OrderEntry" Type="StoreModel.Store.OrderEntrySet" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Product">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="OrderEntry">
+        <PropertyRef Name="Product_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="StoreModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="StoreModelContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="UserSet" EntityType="StoreModel.User" />
+          <EntitySet Name="OrderEntrySet" EntityType="StoreModel.OrderEntry" />
+          <EntitySet Name="OrderSet" EntityType="StoreModel.Order" />
+          <EntitySet Name="ProductSet" EntityType="StoreModel.Product" />
+          <AssociationSet Name="UserOrder" Association="StoreModel.UserOrder">
+            <End Role="User" EntitySet="UserSet" />
+            <End Role="Order" EntitySet="OrderSet" />
+          </AssociationSet>
+          <AssociationSet Name="OrderOrderEntry" Association="StoreModel.OrderOrderEntry">
+            <End Role="Order" EntitySet="OrderSet" />
+            <End Role="OrderEntry" EntitySet="OrderEntrySet" />
+          </AssociationSet>
+          <AssociationSet Name="ProductOrderEntry" Association="StoreModel.ProductOrderEntry">
+            <End Role="Product" EntitySet="ProductSet" />
+            <End Role="OrderEntry" EntitySet="OrderEntrySet" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="User">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Username" Type="String" Nullable="false" />
+          <Property Name="Password" Type="String" Nullable="false" />
+          <Property Name="CashAmount" Type="Double" Nullable="false" />
+          <NavigationProperty Name="Order" Relationship="StoreModel.UserOrder" FromRole="User" ToRole="Order" />
+        </EntityType>
+        <EntityType Name="OrderEntry">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Amount" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="Order" Relationship="StoreModel.OrderOrderEntry" FromRole="OrderEntry" ToRole="Order" />
+          <NavigationProperty Name="Product" Relationship="StoreModel.ProductOrderEntry" FromRole="OrderEntry" ToRole="Product" />
+        </EntityType>
+        <EntityType Name="Order">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="OrderDate" Type="DateTime" Nullable="false" />
+          <NavigationProperty Name="User" Relationship="StoreModel.UserOrder" FromRole="Order" ToRole="User" />
+          <NavigationProperty Name="OrderEntry" Relationship="StoreModel.OrderOrderEntry" FromRole="Order" ToRole="OrderEntry" />
+        </EntityType>
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Price" Type="Double" Nullable="false" />
+          <NavigationProperty Name="OrderEntry" Relationship="StoreModel.ProductOrderEntry" FromRole="Product" ToRole="OrderEntry" />
+        </EntityType>
+        <Association Name="UserOrder">
+          <End Type="StoreModel.User" Role="User" Multiplicity="1" />
+          <End Type="StoreModel.Order" Role="Order" Multiplicity="*" />
+        </Association>
+        <Association Name="OrderOrderEntry">
+          <End Type="StoreModel.Order" Role="Order" Multiplicity="1" />
+          <End Type="StoreModel.OrderEntry" Role="OrderEntry" Multiplicity="*" />
+        </Association>
+        <Association Name="ProductOrderEntry">
+          <End Type="StoreModel.Product" Role="Product" Multiplicity="1" />
+          <End Type="StoreModel.OrderEntry" Role="OrderEntry" Multiplicity="*" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="StoreModelStoreContainer" CdmEntityContainer="StoreModelContainer">
+    <EntitySetMapping Name="UserSet">
+      <EntityTypeMapping TypeName="IsTypeOf(StoreModel.User)">
+        <MappingFragment StoreEntitySet="UserSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="CashAmount" ColumnName="CashAmount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderEntrySet">
+      <EntityTypeMapping TypeName="IsTypeOf(StoreModel.OrderEntry)">
+        <MappingFragment StoreEntitySet="OrderEntrySet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="OrderSet">
+      <EntityTypeMapping TypeName="IsTypeOf(StoreModel.Order)">
+        <MappingFragment StoreEntitySet="OrderSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="OrderDate" ColumnName="OrderDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ProductSet">
+      <EntityTypeMapping TypeName="IsTypeOf(StoreModel.Product)">
+        <MappingFragment StoreEntitySet="ProductSet">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="UserOrder" TypeName="StoreModel.UserOrder" StoreEntitySet="OrderSet">
+      <EndProperty Name="User">
+        <ScalarProperty Name="Id" ColumnName="User_Id" />
+      </EndProperty>
+      <EndProperty Name="Order">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="OrderOrderEntry" TypeName="StoreModel.OrderOrderEntry" StoreEntitySet="OrderEntrySet">
+      <EndProperty Name="Order">
+        <ScalarProperty Name="Id" ColumnName="Order_Id" />
+      </EndProperty>
+      <EndProperty Name="OrderEntry">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="ProductOrderEntry" TypeName="StoreModel.ProductOrderEntry" StoreEntitySet="OrderEntrySet">
+      <EndProperty Name="Product">
+        <ScalarProperty Name="Id" ColumnName="Product_Id" />
+      </EndProperty>
+      <EndProperty Name="OrderEntry">
+        <ScalarProperty Name="Id" ColumnName="Id" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,30 @@
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\bin\Debug\ShopClient.exe.config
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.exe
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.pdb
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\bin\Debug\ShopClient.exe
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\bin\Debug\ShopClient.pdb
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.Form1.resources
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\ShopClient.Properties.Resources.resources
+c:\users\samme\documents\visual studio 2013\Projects\ShopService\ShopClient\obj\Debug\LoginClient.csproj.GenerateResource.Cache
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\bin\Debug\ShopClient.exe.config
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\obj\Debug\ShopClient.exe
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\obj\Debug\ShopClient.pdb
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\bin\Debug\ShopClient.exe
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\bin\Debug\ShopClient.pdb
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\obj\Debug\LoginClient.csprojResolveAssemblyReference.cache
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\obj\Debug\ShopClient.Form1.resources
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\obj\Debug\ShopClient.Properties.Resources.resources
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\obj\Debug\LoginClient.csproj.GenerateResource.Cache
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\bin\Debug\StoreClient.exe
+E:\Dropbox\Persoonlijk\Visual Studio\ShopService\ShopClient\bin\Debug\StoreClient.pdb
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\bin\Debug\ShopClient.exe.config
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\obj\Debug\ShopClient.exe
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\obj\Debug\ShopClient.pdb
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\bin\Debug\ShopClient.exe
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\bin\Debug\ShopClient.pdb
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\bin\Debug\StoreClient.exe
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\bin\Debug\StoreClient.pdb
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\obj\Debug\LoginClient.csprojResolveAssemblyReference.cache
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\obj\Debug\ShopClient.Form1.resources
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\obj\Debug\ShopClient.Properties.Resources.resources
+F:\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopService\ShopService\ShopClient\obj\Debug\LoginClient.csproj.GenerateResource.Cache
