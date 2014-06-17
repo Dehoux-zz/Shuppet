@@ -1,7 +1,0 @@
-F:\Users\Nick\Documents\TBD2\Shuppet\Shuppet\ShuppetServiceLibrary\bin\Debug\ShuppetServiceLibrary.dll
-F:\Users\Nick\Documents\TBD2\Shuppet\Shuppet\ShuppetServiceLibrary\bin\Debug\ShuppetServiceLibrary.pdb
-F:\Users\Nick\Documents\TBD2\Shuppet\Shuppet\ShuppetServiceLibrary\bin\Debug\EntityFramework.dll
-F:\Users\Nick\Documents\TBD2\Shuppet\Shuppet\ShuppetServiceLibrary\bin\Debug\EntityFramework.xml
-F:\Users\Nick\Documents\TBD2\Shuppet\Shuppet\ShuppetServiceLibrary\obj\Debug\ShuppetServiceLibrary.csprojResolveAssemblyReference.cache
-F:\Users\Nick\Documents\TBD2\Shuppet\Shuppet\ShuppetServiceLibrary\obj\Debug\ShuppetServiceLibrary.dll
-F:\Users\Nick\Documents\TBD2\Shuppet\Shuppet\ShuppetServiceLibrary\obj\Debug\ShuppetServiceLibrary.pdb
