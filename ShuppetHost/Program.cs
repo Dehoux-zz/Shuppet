@@ -16,6 +16,11 @@ namespace ShuppetHost
             {
                 host.Open();
                 Console.WriteLine("Service ready");
+                ShuppetService ss = new ShuppetService();
+                List<Product> list = ss.GetAllProducts();
+                foreach (Product p in list){
+                    Console.WriteLine(p.name);
+                }
                 Console.ReadKey();
             }
         }

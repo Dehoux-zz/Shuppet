@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoginClient", "..\..\..\..\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoreClient", "..\..\..\..\Gebruikers\Nick\Documenten 2\Hoge School\C#\ShopServiceUI\ShopService\StoreClient\StoreClient.csproj", "{45392D32-FD53-4F30-B4D1-ACF954B0668D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShuppetWPFClient", "ShuppetWPFClient\ShuppetWPFClient.csproj", "{F8EA0CC6-695C-4C7B-A9C0-623B70F557D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{45392D32-FD53-4F30-B4D1-ACF954B0668D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{45392D32-FD53-4F30-B4D1-ACF954B0668D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{45392D32-FD53-4F30-B4D1-ACF954B0668D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EA0CC6-695C-4C7B-A9C0-623B70F557D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EA0CC6-695C-4C7B-A9C0-623B70F557D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EA0CC6-695C-4C7B-A9C0-623B70F557D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EA0CC6-695C-4C7B-A9C0-623B70F557D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

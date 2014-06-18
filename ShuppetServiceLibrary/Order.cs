@@ -16,8 +16,9 @@ namespace ShuppetServiceLibrary
     {
         public int Id { get; set; }
         public System.DateTime orderDate { get; set; }
+        public int amount { get; set; }
     
-        public virtual Product Product { get; set; }
         public virtual User User { get; set; }
+        public virtual Product Product { get; set; }
     }
 }

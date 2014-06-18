@@ -16,5 +16,17 @@ namespace ShuppetServiceLibrary
 
         [OperationContract]
         bool Login(string username, string password);
+
+        [OperationContract]
+        List<Product> GetAllProducts();
+
+        [OperationContract]
+        List<Order> GetInventory(User user);
+
+        [OperationContract]
+        double CheckMoney(User user, Product product);
+
+        [OperationContract]
+        List<Product> GetProducts();
     }
 }
